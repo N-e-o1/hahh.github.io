@@ -1,0 +1,180 @@
+body{background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bag4.jpg);
+}
+header{
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    background-position:center;
+    text-align: center;
+    padding-bottom: 200px;
+    font-size: 60px;
+    font-weight: 700;
+    border-radius: 20px;
+}   
+#home{
+    color: rgb(255, 255, 255);
+}
+#headp{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: underline;
+}
+#infos,p{
+    color: white;
+    font-size: 20px;
+    text-align:center;
+    
+}
+#ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        text-align: center;
+      }
+.li1{display: inline-block;}
+.li1 a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+nav{
+    border-radius: 20px;
+}
+nav a:hover{
+    
+    color: #fff;
+    background-color:#04407a ;}
+
+#main{
+    display:flex;
+    
+}
+#vip, #normal{
+    border:2px rgb(138, 138, 138) solid;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 25px;
+    flex-basis: 100%;
+    background-image: url(bag3.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-decoration: underline white;
+    
+    
+}
+main ,h2{
+    color:white;}
+h2,h3,h5{
+    text-align: center;
+    
+}
+#first p{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+#first{
+    text-align: center;
+}
+#first img{
+    border-radius:30px ;
+    height: 330px;
+    
+}
+.button1 {
+    margin-left: 30%;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    line-height: 2.5;
+    padding:  0 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.button2{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    line-height: 2.5;
+    padding:  0 20px;
+    border-radius: 10px;
+    background-color:#000000;
+    border-color: white;
+}
+
+/*#first, #second,#third{
+    
+    display: flex;
+    align-items: center;}
+#second aside img{
+    width: 100%;
+}
+#second p{
+    width: 80%;
+}
+aside img{
+    height: auto;
+    display: block;
+    width: 60%;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px;}
+    
+div p{
+    display: block;
+    width: 40%;
+    padding-left: 1%;
+}*/
+
+
+#buy{
+    color:rgb(185, 29, 29);
+    font-weight: bold;
+    font-size: 80px;
+}
+
+fieldset{
+    background-image:url(redxblack.jpg) ;
+    border-radius: 10px;
+    color: #ffffff;
+    
+    font-size: large;
+    
+}
+fieldset li{
+    list-style-type: none;
+}
+footer {
+
+background-image: url(footer.jpg);
+background-repeat: round;
+background-color:#001a33;
+color: white;
+margin-top: 20px;
+padding: 10px;
+border-radius: 20px;}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgba(94, 98, 165, 0.795);
+}
+input ,select{
+    background-color: #000000;
+    border-radius: 5px;
+}
+footer p {
+    text-align: center;
+}
