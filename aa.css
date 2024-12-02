@@ -177,3 +177,6 @@ input ,select{
 footer p {
     text-align: center;
 }
+input{
+    color: white;
+}
